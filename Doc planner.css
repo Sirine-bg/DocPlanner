@@ -1,0 +1,350 @@
+
+nav{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left:0;
+    display: flex;
+    z-index: 1;
+}
+.logo-docplanner{
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+margin-right: 10px;
+    position: relative;
+    margin-left: 600px;
+    
+    
+
+}
+.navbar li{
+    list-style-type: none;
+
+  
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+#dropdown a{
+    color: grey;
+}
+.caranddepart{
+    color: grey;
+}
+
+#menu:hover #dropdown{
+    display: block;
+}
+.about-us{
+    color: #00bfa5;
+}
+
+
+
+.lead__logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+#dropdown > li :hover{
+    color: #00bfa5;
+}
+.navbar>li :hover{
+    color: #00bfa5;
+}
+.make{
+    color: #00bfa5;
+    text-align: center;
+    
+}
+.section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 200px;
+    margin-left: 200px;
+    grid-column-gap: 50px;
+    color: #747474;
+}
+.patients{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.doctor{
+    background-color: #3d83df;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.clinics{
+    background-color: #1b2734;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.sevices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-left: 120px;
+    margin-right: 90px;
+    color: white;
+}
+
+.for{
+    padding: 30px;
+}
+select{
+    background-color: transparent;
+    border: 6px solid transparent;
+    color: white;
+    text-decoration: underline;
+}
+option{
+    color: black;
+}
+.brands_logos li{
+    list-style-type: none;
+}
+
+.brands h1{
+    color:#00b39b ;
+   /* padding-top: 50px  ;
+    margin-left: 100px;*/
+}
+.brands_logos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.brands{
+    display: grid;
+grid-template-columns: 25% 75%;
+}
+.brands img{ 
+        -webkit-filter: grayscale(1); 
+        filter: grayscale(1); 
+       
+}
+.brands img:hover { 
+        -webkit-filter: grayscale(0); 
+        filter: none; 
+        } 
+.brands svg{
+    fill: grey;    
+}
+
+.brands svg:hover{
+   fill: #00bfa5;
+}
+
+.green {
+    background-color: #d8f7f6;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left 40px bottom -90px;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 750px;
+}
+    
+.green h1{
+    color: #00bfa5; 
+  /* margin-left: 30px; */
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+padding-top: 50px;
+padding-left: 150px;
+font-family: 'Roboto',Arial, sans-serif;
+    height: auto;
+    width: 650px;
+}
+
+#section3{
+    background-color: #d8f7f6;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left 40px bottom -90px;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 750px;
+}
+#leftpart {
+    text-align:left;
+    margin-top: 90px;
+    margin-left: 150px;
+    font-family: 'Roboto',Arial, sans-serif;
+    height: auto;
+    width: 650px;
+
+}
+#leftpart h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+#leftpart p{
+    font-size: 13px;
+    color:#747474 ;
+    font-weight: bolder;
+    line-height: 1.7142857143;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+#section3 #boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20%;
+    justify-content: space-between;
+}
+#boxes .bb{
+    height: 300px;
+    width: 240px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 5px;
+    font-family: 'Roboto',Arial, sans-serif;
+
+}
+#boxes .b1{
+    margin-top: 50px;
+
+}
+#boxes .b2{
+    margin-top: 30px;
+    margin-right: 70px;
+
+}
+#im1 {
+    margin-top:40px;
+}
+#im2{
+    margin-top: 60px;
+}
+#im3{
+    margin-top: 60px;
+}
+#im4{
+    margin-top: 55px;
+}
+.bb h3{
+    color: #00b39b;
+    font-size: 28px;
+}
+.bb p{
+    font-size: 12px;
+    padding-right:32px ;
+    padding-left: 32px;
+    padding-top: 20px;
+    color:#747474 ;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+.section4> h1{
+    text-align: center;
+    color: #00bfa5;}
+.section4> p{
+    text-align: center;
+    color: #747474;
+}
+.country{
+width: 300px;
+border: 1px solid rgba(192, 191, 191, 0.164);
+border-radius: 10px;
+margin: 20px;
+}
+#countries{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.country:hover{
+    box-shadow: 1px 1px 20px 10px rgba(128, 128, 128, 0.363);
+}
+.country-name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.country img{
+    width: 300px;
+    border-radius: 5px;
+}
+.country-name button{
+    background-color: #3d83df;
+    height: 30px;
+    color: white; 
+
+}
+h4{
+    margin: 5px;
+}
+
+.join-us>h1{
+    text-align: center;
+}
+.join-us button{
+    background-color: #3d83df;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 600px;
+    margin-bottom: 100px;
+
+}
+#countries button{
+    border-radius: 5px;
+    border: 1px solid white;  
+}
+
+
+.btn{
+    color: white;
+}
+.section__footer {
+    text-align: center;
+    color: #747474;
+    font-size: 12px;
+
+}
